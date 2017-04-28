@@ -23,7 +23,7 @@
         if (cStart == -1)
         {
             //データの無い場合は最初に走ったということ
-            document.write("1回回走りました！");
+            document.write("1回走りました！");
 
             //cookieに走った回数=1を書き込む
             document.cookie="counts=1;";
@@ -41,7 +41,7 @@
             {
                 //取得した回数に+1して表示する
                 cnt=parseInt(cnt)+1;
-                document.write(cnt+"回回走りました！");
+                document.write(cnt+"回走りました！");
 
                 //cookieに走った回数を書き込む
                 document.cookie="counts="+cnt+";";
